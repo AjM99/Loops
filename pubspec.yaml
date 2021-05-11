@@ -1,0 +1,44 @@
+name: tiktok_flutter
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  font_awesome_flutter: ^9.0.0
+  video_player: ^0.10.11+3
+  video_player_platform_interface: ^2.1.1
+  stacked_services: 0.5.4+3
+  get_it: ^5.0.0
+  stacked: ^1.7.6
+  cached_network_image: ^2.3.2+1
+  firebase_core : ^0.5.0
+  cloud_firestore: ^0.14.0+2
+
+dev_dependencies:
+flutter_test:
+  sdk: flutter
+
+flutter:
+
+
+  uses-material-design: true
+
+  fonts:
+    - family:  TikTokIcons
+      fonts:
+       - asset: assets/fonts/TikTokIcons.ttf
+
+
+
+
